@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registro de Pagamentos</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>Registro de Pagamentos</h1>
+  </header>
+  <div class="container">
+    <form id="paymentForm">
+      <div class="form-group">
+        <label for="schoolName">Nome da Escola:</label>
+        <input type="text" id="schoolName" placeholder="Digite o nome da escola">
+      </div>
+      <div class="form-group">
+        <label for="roomName">Nome da Sala:</label>
+        <input type="text" id="roomName" placeholder="Digite o nome da sala">
+      </div>
+      <div class="form-group">
+        <label for="grade">Série:</label>
+        <input type="text" id="grade" placeholder="Digite a série">
+      </div>
+      <div class="form-group">
+        <label for="studentName">Nome do Aluno:</label>
+        <input type="text" id="studentName" placeholder="Digite o nome do aluno">
+      </div>
+      <div class="form-group">
+        <label for="paymentDate">Data do Pagamento:</label>
+        <input type="date" id="paymentDate">
+      </div>
+      <button type="submit">Registrar Pagamento</button>
+    </form>
+    <ul id="paymentList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
